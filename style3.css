@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightsteelblue;
+}
+nav{
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+    font-size: 30px;
+    height: 80px;
+    align-items: center;
+    font-family: 'Allerta Stencil';
+}
+div.navtext{
+    font-family: Georgia;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a:link{
+    color: maroon;
+    text-decoration: none;
+}
+a:visited{
+    color: maroon;
+    text-decoration: none;
+}
+a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+div.navtext li{
+    padding: 0px 10px;
+    list-style: none;
+}
+div.main{
+    display: flex;
+}
+img{
+    width: 60%;
+    height: 50%;
+}
+img:hover{
+    filter:grayscale(1) opacity(0.8);
+}
+.main-text{
+    font-size: 80px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: navy;
+}
+.main-text p{
+    font-size: 20px;
+    color: darkgoldenrod;
+}
+.home-link{
+    font-size: 40px;
+    text-align: left;
+}
+.home-link a:link{
+    color: white;
+    background-color: darkcyan;
+    border-radius: 5px;
+    padding: 5px;
+}
+.home-link a:visited{
+    color: white;
+    background-color: darkcyan;
+}
